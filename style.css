@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-image: url("./images/bg.jpeg");
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Varela Round", sans-serif;
@@ -9,4 +15,63 @@ h1 {
   font-family: "Pacifico", cursive;
   text-align: center;
   font-size: 72px;
+  margin: 50px 0;
+}
+
+.day-of-the-week-and-day {
+  text-align: center;
+}
+
+.day-of-the-week,
+.day {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.month-and-year {
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+.month,
+.year {
+  font-size: 25px;
+}
+
+.prev-calendar-next {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-style: none;
+  background: transparent;
+  font-size: 30px;
+  margin: 20px;
+}
+
+/* calendar */
+
+.sun-line {
+  background-color: #ffebed;
+}
+
+.weekday-line {
+  background-color: #ebebeb;
+}
+
+.sat-line {
+  background-color: #ebf2ff;
+}
+
+th {
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+  width: 50px;
+  height: 25px;
+  padding: 10px 20px;
 }
