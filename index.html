@@ -21,7 +21,6 @@
     <section>
       <h1>Calendar</h1>
 
-      <!-- 달력 Start -->
       <div class="day-and-date">
         <p class="day"></p>
         <p class="date"></p>
@@ -30,14 +29,77 @@
         <span class="month"></span>
         <span class="year"></span>
       </div>
-      <div class="prev-calendar-next">
+      <div class="prev-table-next">
         <button class="prev" type="button"><i class="fas fa-angle-double-left"></i></button>
-        <!-- 찐 달력 Start -->
-        <div class="blank"></div>
-        <!-- 찐 달력 End -->
+        <!-- 달력 Start -->
+          <table class="table">
+            <colgroup span="7" class="columns">
+              <col class="sun-line">
+              <col class="weekday-line" span="5">
+              <col class="sat-line">
+            </colgroup>
+            <thead class="thead">
+              <tr>
+                <th>SUN</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              <tr>
+                <td id="day0"></td>
+                <td id="day1"></td>
+                <td id="day2"></td>
+                <td id="day3"></td>
+                <td id="day4"></td>
+                <td id="day5"></td>
+                <td id="day6"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- 달력 End -->
         <button class="next" type="button"><i class="fas fa-angle-double-right"></i></button>
       </div>
-      <!-- 달력 End -->
     </section>
 
     <script src="index.js"></script>
