@@ -11,9 +11,9 @@
       href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="icon" href="/images/favicon.ico?v=cacheDelete" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Calendar Project 🤩</title>
+    <title>Calendar Project</title>
     <script src="https://kit.fontawesome.com/f390a29300.js" crossorigin="anonymous"></script>
   </head>
 
@@ -22,9 +22,9 @@
       <h1>Calendar</h1>
 
       <!-- 달력 Start -->
-      <div class="day-of-the-week-and-day">
-        <p class="day-of-the-week"></p>
+      <div class="day-and-date">
         <p class="day"></p>
+        <p class="date"></p>
       </div>
       <div class="month-and-year">
         <span class="month"></span>
@@ -32,73 +32,11 @@
       </div>
       <div class="prev-calendar-next">
         <button class="prev" type="button"><i class="fas fa-angle-double-left"></i></button>
-        <table class="calendar">
-          <colgroup span="7" class="columns">
-            <col class="sun-line">
-            <col class="weekday-line" span="5">
-            <col class="sat-line">
-          </colgroup>
-          <thead class="thead">
-            <tr>
-              <th>SUN</th>
-              <th>MON</th>
-              <th>TUE</th>
-              <th>WED</th>
-              <th>THU</th>
-              <th>FRI</th>
-              <th>SAT</th>
-            </tr>
-          </thead>
-          <tbody class="tbody">
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- 찐 달력 Start -->
+        <div class="blank"></div>
+        <!-- 찐 달력 End -->
         <button class="next" type="button"><i class="fas fa-angle-double-right"></i></button>
-      </div>>
+      </div>
       <!-- 달력 End -->
     </section>
 

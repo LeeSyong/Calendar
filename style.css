@@ -18,12 +18,12 @@ h1 {
   margin: 50px 0;
 }
 
-.day-of-the-week-and-day {
+.day-and-date {
   text-align: center;
 }
 
-.day-of-the-week,
-.day {
+.day,
+.date {
   font-size: 45px;
   font-weight: bold;
   margin: 20px;
@@ -48,7 +48,7 @@ button {
   border-style: none;
   background: transparent;
   font-size: 30px;
-  margin: 20px;
+  margin: 50px;
 }
 
 /* calendar */
@@ -74,4 +74,8 @@ td {
   width: 50px;
   height: 25px;
   padding: 10px 20px;
+}
+
+.clicked {
+  color: red;
 }
